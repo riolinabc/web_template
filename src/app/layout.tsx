@@ -1,4 +1,4 @@
-// import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 
 import "@/styles/tailwind.css";
@@ -6,11 +6,11 @@ import "@/styles/tailwind.css";
 // Here we define the metadata for the site
 // The metadata is used to define the title and description of the site
 // The metadata is used by search engines and social media platforms
-// export const metadata: Metadata = {
-//   title: "John Doe - Portfolio Workshop",
-//   description:
-//     "Explore John Doe's portfolio created during the portfolio workshop.",
-// };
+export const metadata: Metadata = {
+  title: "John Doe - Portfolio Workshop",
+  description:
+    "Explore John Doe's portfolio created during the portfolio workshop.",
+};
 
 //Here is the root layout which shared across all pages
 //This layout includes the header and the main content
@@ -26,7 +26,7 @@ export default function RootLayout({
         {/*  This is the favicon using an SVG */}
         <link
           rel="icon"
-          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>"
+          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⭐</text></svg>"
         />
         <Header />
         {/*The container is to keep the content centered and with a max-width in larger screens the content won't be too wide */}
