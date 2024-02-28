@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "xabikos.javascriptsnippets",
+    "pkief.material-icon-theme",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-complete-tag"
+  ]
+}
